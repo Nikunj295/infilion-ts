@@ -1,12 +1,15 @@
 import React, { FC } from 'react';
-import "./styles/app.scss";
+import {  store } from './redux/store';
+import { Provider } from 'react-redux';
+import './styles/app.scss';
+import CustomTable from './components/Tables/CustomTable';
 
 const App: React.FC =  () => {
-    return (
-        <div className="hey">
-            APP
-        </div>
-    )
-}
+	return (
+		<Provider store={store}>
+			<CustomTable />
+		</Provider>
+	);
+};
 
-export default App
+export default App;

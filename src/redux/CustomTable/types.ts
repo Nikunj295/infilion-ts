@@ -1,0 +1,4 @@
+export const GET_TABLE_DATA = 'GET_TABLE_DATA';
+export const DELETE_TABLE_DATA = 'DELETE_TABLE_DATA';
+export const EDIT_TABLE_DATA = 'EDIT_TABLE_DATA';
+export const SET_TABLE_DATA = 'SET_TABLE_DATA';
